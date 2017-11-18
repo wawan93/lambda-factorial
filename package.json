@@ -1,0 +1,29 @@
+{
+  "name": "lambda-factorial",
+  "version": "1.0.0",
+  "description": "My _pet project_!",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "NODE_ENV=production babel src --out-dir dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wawan93/lambda-factorial.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wawan93/lambda-factorial/issues"
+  },
+  "homepage": "https://github.com/wawan93/lambda-factorial#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-stage-0": "^6.24.1"
+  },
+  "files": [
+    "dist"
+  ]
+}
